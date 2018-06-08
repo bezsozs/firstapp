@@ -1,16 +1,18 @@
 #!/usr/bin/python
 
-from flask import Flask
+# from flask import Flask
 
-app= Flask(__name__)
+# import hello
 
-@app.route("/")
+# app= Flask(__name__)
 
-def index():
-    return "Hello Word"
+# @app.route("/")
 
-if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+# def index():
+#     return "Hello Word"
+
+# if __name__ == '__main__':
+#     app.run(port=5000, debug=True)
 
 
 
